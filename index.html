@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAMRS Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header and Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+          <!-- Logo -->
+          <div class="flex items-center space-x-2">
+              <img src="images/logo.png" alt="DREAMRS Lab Logo" class="h-10">
+              <span class="text-xl font-bold text-gray-900">DREAMRS Lab</span>
+          </div>
+          <!-- Navbar -->
+          <nav class="space-x-6 relative">
+              <a href="index.html" class="text-gray-600 hover:text-blue-500">Home</a>
+              <a href="team.html" class="text-gray-600 hover:text-blue-500">Team</a>
+              <!-- Dropdown for Research -->
+              <div class="group inline-block relative">
+                  <a href="#" class="text-gray-600 hover:text-blue-500">Research</a>
+                  <div
+                      class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg py-2 w-48 z-10">
+                      <a href="projects.html" class="block px-4 py-2 text-gray-600 hover:text-white hover:bg-blue-500">Projects</a>
+                      <a href="publications.html" class="block px-4 py-2 text-gray-600 hover:text-white hover:bg-blue-500">Publications</a>
+                  </div>
+              </div>
+              <a href="contact.html" class="text-gray-600 hover:text-blue-500">Contact Us</a>
+          </nav>
+      </div>
+  </header>
+  
+
+    <!-- Hero Section -->
+    <section class="relative h-[40rem] bg-cover bg-center" style="background-image: url('images/banner.gif');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div class="text-center">
+              <h1 class="text-4xl font-bold text-white">Welcome To DREAMRS Lab</h1>
+              <!-- <h1 class="text-4xl font-bold text-white">Welcome To</h1>
+              <br>
+                <h1 class="text-4xl font-bold text-white"><u>D</u>esign <u>R</u>es<u>ea</u>rch and Hu<u>m</u>an Facto<u>rs</u> Lab (DREAMRS Lab)</h1>
+                <br> -->
+                <p class="text-lg text-gray-200 mt-4">Advancing Design Research and Human Factors</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-100 py-12 px-6 lg:px-20">
+        <div class="max-w-7xl mx-auto">
+          <!-- Main Heading -->
+          <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">About DREAMRS Lab</h2>
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              The Design Research and Human Factors Lab (<strong>DREAMRS Lab</strong>) is a research hub dedicated to exploring how designers approach challenges, process information, and innovate. The major focus is design thinking, an intricate process involving cognition, physiology, and neuroscience. This research framework dives into how designers think, make decisions, solve problems and generate innovative ideas offering actionable insights to improve design practices which further impacts human experiences, behaviors, and performance in various contexts, ranging from consumer products to complex systems.
+            </p>
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              The lab focuses on how designers create solutions that optimize usability, safety, efficiency, feasibility and overall user satisfaction. These insights fuel innovative approaches to design that cater not only to functional requirements but also to the emotional and cognitive needs of users.
+            </p>
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              The lab's research leverages both qualitative and quantitative methodologies, including usability testing, cognitive task analysis, and data-driven design optimizations. Through a multidisciplinary approach, DREAMRS explores the deep connection between human behavior and the designed world, ultimately striving to create better, more intuitive interactions.
+            </p>
+          </div>
+          <!-- Cards Section -->
+          <div class="grid gap-6">
+            <!-- Card 1: Design Research -->
+            <div class="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden mt-12">
+                <img class="lg:w-1/2 h-64 object-cover" src="images/desres.webp" alt="Design Research">
+                <div class="p-6 lg:w-1/2">
+                  <h2 class="text-2xl font-bold text-gray-800">Design Research</h2>
+                  <p class="mt-4 text-gray-600">
+                    Our lab is dedicated to exploring innovative approaches to design. Through comprehensive studies of creative and 
+                    analytical processes, we aim to improve the ways products, services, and systems are conceptualized and developed. 
+                    By focusing on design creativity, effective tools, and ergonomic principles, we ensure that our research 
+                    drives meaningful advancements in the field of design.
+                  </p>
+                  <a href="#design-research" class="mt-4 inline-block text-blue-500 font-semibold">
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+              
+          
+            <!-- Card 2: Human Factors -->
+            <div class="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden mb-12">
+              <img class="lg:w-1/2 h-64 object-cover" src="images/hci.webp" alt="Human Factors">
+              <div class="p-6 lg:w-1/2">
+                <h2 class="text-2xl font-bold text-gray-800">Human Factors</h2>
+                <p class="mt-4 text-gray-600">
+                  We focus on the study of human behavior, capabilities, and limitations to ensure that our designs align with the 
+                  needs of users. By integrating physical and cognitive ergonomics, our research addresses critical aspects of 
+                  safety, performance, and well-being. This ensures that the systems and products we develop are optimized for 
+                  real-world applications, delivering both functionality and user satisfaction.
+                </p>
+                <a href="#human-factors" class="mt-4 inline-block text-blue-500 font-semibold">
+                  Learn More →
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </section>
+      
+      
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-8">
+      <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+          <!-- About -->
+          <div>
+              <h3 class="text-lg font-semibold">DREAMRS Lab</h3>
+              <p class="text-sm mt-2">Advancing Design Research and Human Factors.</p>
+          </div>
+          <!-- Follow -->
+          <div>
+              <h3 class="text-lg font-semibold">Follow</h3>
+              <ul class="mt-2 space-y-2">
+                  <li><a href="#" class="text-gray-400 hover:text-gray-100">LinkedIn</a></li>
+                  <li><a href="#" class="text-gray-400 hover:text-gray-100">Twitter</a></li>
+                  <li><a href="#" class="text-gray-400 hover:text-gray-100">Facebook</a></li>
+              </ul>
+          </div>
+          <!-- Contact Us -->
+          <div>
+              <h3 class="text-lg font-semibold">Contact Us</h3>
+              <p class="text-sm mt-2">A-405 , R&D Building,<br>
+                  IIITD, 
+                  Okhla Phase III, <br>
+                  New Delhi, Delhi 110020</p>
+              <p class="text-sm">Email: sonal.keshwani@.iiitd.ac.in</p>
+          </div>
+          <!-- Quick Links -->
+          <div>
+              <h3 class="text-lg font-semibold">Quick Links</h3>
+              <ul class="mt-2 space-y-2">
+                  <li><a href="index.html" class="text-gray-400 hover:text-gray-100">Home</a></li>
+                  <li><a href="team.html" class="text-gray-400 hover:text-gray-100">Team</a></li>
+                  <li><a href="research.html" class="text-gray-400 hover:text-gray-100">Research</a></li>
+                  <li><a href="contact.html" class="text-gray-400 hover:text-gray-100">Contact Us</a></li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
